@@ -1,0 +1,6 @@
+font-family: roboto-black;
+font-family: roboto-light;
+font-family: hammersmith_one;
+font-family: playfair_black;
+link: https://jsfiddle.net/cse_tushar/6FzSb/
+link: http://kenwheeler.github.io/slick/

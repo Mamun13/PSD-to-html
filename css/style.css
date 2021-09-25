@@ -1,0 +1,477 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+    outline: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul,li{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    
+}
+/* main css start */
+
+/*manu part Start*/
+@font-face{
+    font-family: roboto-black;
+    src: url(../fonts/roboto-black.ttf);
+}
+@font-face{
+    font-family: roboto-light;
+    src: url(../roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: hammersmith_one;
+    src: url(../hammersmith-one/HammersmithOne.ttf);
+}
+@font-face{
+    font-family: playfair_black;
+    src: url(../playfair-display/PlayfairDisplay-Black.otf);
+}
+.bg{
+    padding: 0px 0px;
+}
+header #navigation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#navbarTogglerDemo02 ul li a{
+    color: white;
+    line-height: 80px;
+    font-size: 13px;
+    font-family: roboto-black;
+    text-transform: uppercase;
+    padding: 0;
+    padding: 0px 25px;
+    transition: all linear 0.3s;
+}
+#navbarTogglerDemo02 ul li a:hover{
+    color: #00e0d0;
+    -wibkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+#navbarTogglerDemo02 ul li a.active{
+    color: #00e0d0;
+}
+#navbarTogglerDemo02 ul li a:last-child{
+    padding-right: 0px;
+}
+/*manu part end*/
+
+/*Banner part start*/
+
+#banner{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner .banner_overlay{
+    background-color:  rgba(45, 27, 81, 0.85); 
+    padding-top: 220px;
+    padding-bottom: 205px;
+}
+#banner h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+#banner h1:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #00e0d0;
+    left: 50%;
+    bottom: -27px;;
+    transform: translate(-50%);
+}
+#banner p{
+    padding-top: 60px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 55px;
+}
+#banner a{
+    font-family: 'Hammersmith One', sans-serif;;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    padding: 15px 15px;
+    transition: all linear 0.3s;
+}
+#banner a:hover{
+    color: white;
+    background-color: #00e0d0;
+}
+/*Banner part End*/
+
+/*Story part start*/
+#story img{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+#story h1{
+    padding-top: 70px;
+    padding-bottom: 28px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+#story p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 35px;
+}
+#story a{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    padding: 15px 15px;  
+    transition: all linear 0.3s;
+}
+#story a:hover{
+    color: white;
+    background-color: #00e0d0;
+}
+/*Story part End*/
+
+/*Video part Start*/
+#video{
+    background: url(../images/video-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#video .video_overlay{
+    background-color:  rgba(45, 27, 81, 0.85); 
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#video img{
+    height: 100px;
+    width: 100px;
+}
+#video p{
+    font-size: 16px;
+    font-family: roboto-black;
+    color: white;
+    text-transform: uppercase;
+}
+/*Video part End*/
+
+/*Expertise part Start*/
+#expertise h1{
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+#expertise p{
+    font-size: 14px;
+    color: #8d8c90;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 80px;
+    display: inline-block;
+    position: relative;
+}
+#expertise p:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #8d8c90;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 60px;;
+    
+}
+/*Expertise part End*/
+
+
+/*Icon part Start*/
+#icon .border{
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+#icon .border.left_border_remove{
+    border-left: 0;
+    border-top: 0;
+}
+#icon .border.top_border_remove{
+    border-top: 0;
+}
+#icon .border.right_border_remove{
+    border-right: 0;
+    border-top: 0;
+}
+#icon .border.bottoml_border_remove{
+    border-left: 0;
+    border-bottom: 0;   
+}
+#icon .border.bottom_order_remove{
+    border-bottom: 0;   
+}
+#icon .border.bottoml_border_remove{
+    border-right: 0;
+    border-bottom: 0;
+}
+#icon i{
+    font-size: 50px;
+    color: #26c1ce;
+    padding-top: 40px;
+}
+#icon h3{
+    font-size: 14px;
+    font-family: roboto-black;
+    text-transform: uppercase;
+    padding-top: 40px;
+/*    padding-bottom: 25px:*/
+}
+#icon p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+#icon .blank{
+    height: 70px;
+    background-color: white;
+}
+/*Icon part End*/
+
+/*Team part Start*/
+#team{
+    background: url(../images/team-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#team .team_overlay{
+    background-color:  rgba(45, 27, 81, 0.85); 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#team h1{
+    color: white;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+#team p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 70px;
+    position: relative;
+}
+#team p:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #655c80;
+    left: 50%;
+    bottom: 47px;;
+    transform: translate(-50%);
+}
+#team figcaption{
+    border: 1px solid #77748b;
+}
+#team h4{
+    color: white;
+    font-family: roboto-black;
+    font-size: 14px;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+#team h6{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+#team h5{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#team a{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    padding: 13px 14px;
+    border-radius: 2px;
+    border: 1px solid #00e0d0;
+    transition: all linear 0.3s;
+}
+#team a:hover{
+    color: white;
+    background: #00e0d0;
+}
+#team figure .team_member{
+    position: relative;
+}
+#team figure .team_member .team_member_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(45, 27, 81, 0.5); 
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+#team figure .team_member .team_member_overlay ul{
+    float: right;
+    padding-top: 10px   ;
+}
+#team figure .team_member .team_member_overlay ul li{
+    font-size: 15px;
+    padding-top: 10px;
+}
+#team figure .team_member .team_member_overlay ul li ai{
+    font-size: 15px;
+}
+#team figure .team_member:hover .team_member_overlay{
+    opacity: 1;
+}
+/*Team part End*/
+
+/*Work part Start*/
+#work h2{
+    line-height: 157px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: playfair_black;
+    font-weight: 700;
+}  
+#work p{
+    font-size: 14px;
+    line-height: 157px;
+    font-family: 'Roboto', sans-serif;
+}
+/*Work part End*/
+
+/*Gallary part Start*/
+#myList li{ 
+    display:none;
+}
+#loadMore {
+    color:green;
+    cursor:pointer;
+}
+#loadMore:hover {
+    color:black;
+}
+#showLess {
+    color:red;
+    cursor:pointer;
+}
+#showLess:hover {
+    color:black;
+}
+#gallary  ul li{
+    width: 16.66%;
+    float: left;
+    
+}
+#gallary  ul li img{
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+#gallary .loading #loadMore{
+    border: 1px solid #00e0d0;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00e0d0;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-family: hammersmith_one;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+/*Gallary part End*/
+
+/*Comment part Start*/
+#comment{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+#comment .comment_overlay{
+    background-color:  rgba(45, 27, 81, 0.85); 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#comment i{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 45px;
+}
+#comment p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 55px;
+}
+#comment ul li{
+    display: inline-block;
+}
+/*Comment part End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
